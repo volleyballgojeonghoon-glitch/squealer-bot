@@ -1,0 +1,10 @@
+{
+  "name": "AI 스퀼러와의 토론",
+  "short_name": "스퀼러 토론",
+  "description": "동물농장 비판적 사고 역할극",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF8E1",
+  "theme_color": "#C00000",
+  "orientation": "portrait"
+}
