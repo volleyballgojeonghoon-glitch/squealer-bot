@@ -94,6 +94,11 @@
     }
     .result-title { font-size: 20px; font-weight: bold; color: #375623; text-align: center; margin-bottom: 12px; }
     .result-body { font-size: 15px; color: #375623; line-height: 1.7; margin-bottom: 16px; }
+    .critical-question {
+      font-size: 15px; color: #7B2D2D; line-height: 1.7;
+      margin-bottom: 16px; background-color: #FFF2CC;
+      padding: 14px; border-radius: 8px; border: 2px solid #B71C1C;
+    }
     .reset-btn {
       width: 100%; padding: 14px; background-color: #548235; color: white;
       border: none; border-radius: 6px; font-size: 16px; font-weight: bold;
@@ -105,7 +110,7 @@
     }
     @media (max-width: 600px) {
       body { padding: 10px 0; }
-      .header { font-size: 18px; padding: 14px; }
+      .header { font-size: 17px; padding: 12px; }
       .bubble { max-width: 85%; }
     }
   </style>
@@ -132,20 +137,28 @@
       <div class="result-title">🎓 역할극이 끝났어요!</div>
       <div class="result-body">
         <strong>이것은 교육용 역할극이었습니다.</strong><br><br>
-        스퀼러가 했던 변명들 — 어떤 거짓말 방식이 보였나요?<br>
-        • 자기 이익 숨기기?<br>
-        • 두려움으로 위협?<br>
-        • 어려운 말로 헷갈리게?<br>
-        • 사실 슬쩍 바꾸기?<br><br>
-        여러분이 발견한 거짓말 방식을 모둠과 공유해 봐요!
+        스퀼러가 했던 변명들 — 어떤 거짓말 방식이 보였나요? 활동지에 ✓ 표시해 보세요.<br><br>
+        <strong>거짓말 8가지 방식</strong><br>
+        ① 자기 이익 숨기기 &nbsp; ② 공포로 협박하기<br>
+        ③ 어려운 말로 헷갈리게 &nbsp; ④ 권위로 누르기<br>
+        ⑤ 사실 살짝 비틀기 &nbsp; ⑥ 가짜로 발표하기<br>
+        ⑦ 스노볼 탓하기 &nbsp; ⑧ 작은 일에 큰 죄 씌우기
+      </div>
+      <div class="critical-question">
+        <strong>🤔 그런데 생각해 봐요</strong><br><br>
+        나는 스퀼러의 거짓말을 <strong>이렇게 잘 찾아냈는데...</strong><br>
+        동물농장의 <strong>양들과 복서</strong>는 왜 의심하지 않았을까요?<br><br>
+        동물농장의 비극을 만든 것은 —<br>
+        <strong>거짓말한 스퀼러</strong>일까, <strong>의심하지 않은 양들·복서</strong>일까?
       </div>
       <button class="reset-btn" id="reset-btn">🔄 다시 시작</button>
     </div>
     <div class="teacher-info">
-      <strong>📚 교사용 안내</strong><br>
-      • 본 도구는 [긋] 동물농장 Exchange 7차시 AI 스파링용 도구입니다.<br>
-      • 학생 1인당 또는 모둠당 1기기로 사용하세요.<br>
-      • 최대 6턴 후 자동 종결되며, "교육용 역할극이었다"고 안내됩니다.<br>
+      <strong>📚 교사용 안내 (v2)</strong><br>
+      • 본 도구는 동물농장 가짜뉴스 비판적 사고 AI 스파링 도구입니다.<br>
+      • 학생 1인당 1기기로 사용하고, 활동지에 거짓말 메커니즘을 기록하게 하세요.<br>
+      • AI는 거짓말 8가지 메커니즘을 다양하게 구사하며, 최대 6턴 후 자동 종결됩니다.<br>
+      • 종결 시 "양들·복서는 왜 의심 안 했나?" 핵심 질문으로 연결됩니다.<br>
       • 학생 부적절 입력 시 AI가 페르소나를 깨고 안전하게 응답합니다.
     </div>
   </div>
